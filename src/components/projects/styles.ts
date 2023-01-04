@@ -13,6 +13,9 @@ export const Project = styled.div`
   gap: 5px;
   color: var(--color-white);
   padding: 15px 0;
+  @media (max-width: 700px) {
+    padding: 20px;
+  }
   img {
     width: 50%;
   }
@@ -25,6 +28,16 @@ export const Project = styled.div`
     display: flex;
     flex-direction: row;
     align-items: center;
+    @media (max-width: 700px) {
+      flex-direction: column;
+      div {
+        width: 100%;
+      }
+      img {
+        margin-top: 20px;
+        width: 100%;
+      }
+    }
   }
   .links {
     display: flex;

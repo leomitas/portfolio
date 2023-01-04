@@ -29,7 +29,8 @@ export const Section = styled.section`
     color: var(--color-white);
     padding: 10px;
     align-items: center;
-    @media (max-width: 500px) {
+    @media (max-width: 700px) {
+      width: 100%;
       overflow-x: scroll;
     }
     li {

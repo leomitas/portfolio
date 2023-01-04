@@ -1,6 +1,6 @@
 import React from "react";
 import { SiGithub } from "react-icons/si";
-import printBurguerKenzie from "../../../assets/printBurguerKenzie.png";
+import printKenzieHub from "../../../assets/printKenzieHub.png";
 import { Project } from "../styles";
 
 const ProjectKenzieHub = () => {
@@ -49,7 +49,7 @@ const ProjectKenzieHub = () => {
             </a>
           </ul>
         </div>
-        <img src={printBurguerKenzie} />
+        <img src={printKenzieHub} />
       </div>
     </Project>
   );

@@ -6,6 +6,11 @@ export const Section = styled.section`
   align-items: center;
   justify-content: space-between;
   width: 100%;
+  @media (max-width: 550px) {
+    display: flex;
+    flex-direction: column;
+    padding: 20px;
+  }
   div {
     display: flex;
     gap: 20px;
@@ -23,6 +28,9 @@ export const Section = styled.section`
     color: var(--color-white);
     font-size: 18px;
     width: 60%;
+    @media (max-width: 700px) {
+      width: 100%;
+    }
   }
   .cv {
     cursor: pointer;
