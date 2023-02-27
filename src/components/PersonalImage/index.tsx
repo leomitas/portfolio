@@ -9,7 +9,7 @@ const PersonalImage = () => {
       <div>
         <p>Desenvolvedor Front End</p>
         <p className='text'>
-          Olá, eu sou o Leonardo Abreu - Taubaté, SP e tenho 19 anos. Estou a
+          Olá, eu sou o Leonardo Abreu - Taubaté, SP e tenho 20 anos. Estou a
           procura do meu primeiro emprego para ingressar na área de programação,
           o qual sou apaixonado desde criança.
         </p>

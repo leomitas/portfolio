@@ -1,14 +1,14 @@
-import React from "react";
-import { Section } from "./styles";
-import Formation from "./formation";
-import Techs from "./techs";
+import React from 'react'
+import { Section } from './styles'
+import Formation from './formation'
+import Techs from './techs'
 
 const AboutMe = () => {
   return (
-    <Section className="full-screen" id="about-me">
-      <div className="container">
+    <Section className='full-screen' id='about-me'>
+      <div className='container'>
         <h2>Sobre mim:</h2>
-        <div className="about-me">
+        <div className='about-me'>
           <p>
             Sou desenvolvedor Web Front End formado, por meio da Kenzie Academy.
             Durante a minha trajetória aprendi desde semântica HTML até consumo
@@ -24,7 +24,7 @@ const AboutMe = () => {
         <Techs />
       </div>
     </Section>
-  );
-};
+  )
+}
 
-export default AboutMe;
+export default AboutMe
