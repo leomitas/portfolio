@@ -3,7 +3,7 @@ import React from 'react'
 
 export default function PersonalImage() {
   return (
-    <section className='p-4 max-w-7xl mx-auto xl:px-0 flex items-center pt-12 flex-col md:flex-row gap-8'>
+    <section className='max-w-7xl mx-auto px-4 xl:px-0 flex items-center flex-col md:flex-row gap-8 pt-16'>
       <p className='text-5xl font-bold text-grey-2'>
         Olá, meu nome é Leonardo Abreu. Sou desenvolvedor web full stack.
       </p>

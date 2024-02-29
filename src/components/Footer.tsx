@@ -33,7 +33,7 @@ export default function Footer() {
             )}
           >
             <GrInstagram />
-            <p>Instagram</p>
+            <p className='hidden md:flex'>Instagram</p>
           </Link>
           <Link
             href={'https://www.linkedin.com/in/leonardo-abreu2402/'}
@@ -44,7 +44,7 @@ export default function Footer() {
             )}
           >
             <GrLinkedin />
-            <p>LinkedIn</p>
+            <p className='hidden md:flex'>LinkedIn</p>
           </Link>
           <Link
             href={'https://www.linkedin.com/in/leonardo-abreu2402/'}
@@ -55,7 +55,7 @@ export default function Footer() {
             )}
           >
             <SiWhatsapp />
-            <p>Whatsapp</p>
+            <p className='hidden md:flex'>Whatsapp</p>
           </Link>
           {/* <Link
           href={'https://github.com/leomitas'}

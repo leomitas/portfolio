@@ -3,7 +3,7 @@ import React from 'react'
 export default function AboutMe() {
   return (
     <section className='p-4 max-w-7xl mx-auto xl:px-0'>
-      <h2 id='about-me'>Sobre mim:</h2>
+      <h2 className='font-bold text-3xl'>Sobre mim</h2>
       <p>
         Sou desenvolvedor Web full stack. Tenho mais de 1 ano de expeciência com
         semântica HTML até consumo e criação de APIs locais e públicas, React

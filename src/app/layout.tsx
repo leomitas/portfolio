@@ -2,7 +2,7 @@ import type { Metadata } from 'next'
 import { Inter } from 'next/font/google'
 import './globals.css'
 import clsx from 'clsx'
-import Header from '@/components/Header'
+import Navbar from '@/components/Navbar'
 
 const inter = Inter({ subsets: ['latin'] })
 
@@ -18,9 +18,9 @@ export default function RootLayout({
 }>) {
   return (
     <html lang='en'>
-      <body className={clsx(inter.className, 'max-w-full')}>
-        <Header />
-        <main className='bg-gray-1 text-white min-h-screen'>{children}</main>
+      <body className={clsx(inter.className, 'max-w-full bg-img')}>
+        <Navbar />
+        <main className='text-white min-h-screen'>{children}</main>
       </body>
     </html>
   )
