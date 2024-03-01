@@ -21,7 +21,9 @@ export default function Navbar() {
     }
   }
 
-  window.addEventListener('scroll', scrollHandler)
+  if (typeof window !== 'undefined') {
+    window.addEventListener('scroll', scrollHandler)
+  }
 
   const changeActivate = () => {
     if (activate == 'flex w-full') {
