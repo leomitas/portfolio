@@ -56,6 +56,7 @@ const config = {
           linkedin: '#0E76A8',
           whatsapp: '#25D366',
           github: '#171515',
+          twitter: '#1DA1F2',
         },
         border: 'hsl(var(--border))',
         input: 'hsl(var(--input))',

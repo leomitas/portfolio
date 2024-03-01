@@ -8,18 +8,14 @@ import { BsFillArrowUpCircleFill } from 'react-icons/bs'
 export default function Home() {
   return (
     <>
-      <div id='home' className='h-2 w-full'></div>
       <PersonalImage />
-      <div id='stack' className='h-1'></div>
-      <Stack />
-      <div id='about-me' className='h-1'></div>
-      <AboutMe />
-      <div id='projects' className='h-1'></div>
-      <Projects />
       <Footer />
+      {/* <Stack />
+      <AboutMe />
+      <Projects />
       <a className='bottom-4 right-4 md:bottom-8 md:right-8 fixed' href='#home'>
         <BsFillArrowUpCircleFill size={40} className='text-purple-heart-700' />
-      </a>
+      </a>  */}
     </>
   )
 }

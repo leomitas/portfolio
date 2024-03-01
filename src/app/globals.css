@@ -4,14 +4,14 @@
 
 body {
   position: relative;
-  background: url('https://i.postimg.cc/xdWnx6tM/Design-sem-nome-7.png')
+  background: url('https://i.postimg.cc/D0c8Mgnf/Design-sem-nome-9.png')
     no-repeat center center fixed;
   background-size: cover;
 }
 
 body::before {
   content: '';
-  background: url('https://i.postimg.cc/xdWnx6tM/Design-sem-nome-7.png');
+  background: url('https://i.postimg.cc/D0c8Mgnf/Design-sem-nome-9.png');
   position: absolute;
   top: 0;
   left: 0;
@@ -19,7 +19,31 @@ body::before {
   bottom: 0;
   z-index: -1;
   background-size: cover;
-  filter: blur(1px) brightness(50%);
+  filter: blur(1px) brightness(80%);
+}
+
+.typewriter {
+  font-family: 'Anonymous Pro', monospace;
+  letter-spacing: 4px;
+  border-right: 5px solid;
+  position: relative;
+  animation: typing 1.5s steps(18), cursor 0.4s step-end infinite alternate;
+  white-space: nowrap;
+  overflow: hidden;
+  /* overflow-wrap: break-word;
+  word-wrap: break-word; */
+}
+
+@keyframes typing {
+  from {
+    width: 0;
+  }
+}
+
+@keyframes cursor {
+  50% {
+    border-color: transparent;
+  }
 }
 
 .img {
