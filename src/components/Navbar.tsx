@@ -11,10 +11,10 @@ export default function Navbar() {
   const [open, setOpen] = useState(false)
   const [navColour, updateNavbar] = useState('bg-trasparent')
 
-  function scrollHandler() {
+  const scrollHandler = () => {
     if (window.scrollY >= 20) {
       updateNavbar(
-        'bg-persian-blue-950/50 backdrop-brightness-50 backdrop-blur border-b-2 shadow-md border-b-purple-heart-700'
+        'bg-persian-blue-950/50 backdrop-brightness-50 backdrop-blur border-b-2 shadow-md border-b-persian-blue-500'
       )
     } else {
       updateNavbar('bg-trasparent')
@@ -56,15 +56,18 @@ export default function Navbar() {
             activate
           )}
         >
-          <Button variant={'link'} className='text-white'>
+          {/* <Button variant={'link'} className='text-white'>
             <a href='#stack'>Stack</a>
+          </Button> */}
+          <Button variant={'link'} className='text-white'>
+            <a href='/'>Início</a>
           </Button>
           <Button variant={'link'} className='text-white'>
-            <a href='#about-me'>Sobre mim</a>
+            <a href='/about-me'>Sobre mim</a>
           </Button>
-          <Button variant={'link'} className='text-white'>
+          {/* <Button variant={'link'} className='text-white'>
             <a href='#projects'>Projetos</a>
-          </Button>
+          </Button> */}
           <Button variant={'link'} className='text-white'>
             <a
               href='https://drive.google.com/file/d/1IMrErndPCsXlmNglUd6t0JjXQZd33nXt/view?usp=sharing'
