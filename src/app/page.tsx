@@ -1,21 +1,11 @@
-import AboutMe from '@/components/AboutMe'
-import Footer from '@/components/Footer'
+import IntroduceMyself from '@/components/IntroduceMyself'
 import PersonalImage from '@/components/PersonalImage'
-import Projects from '@/components/Projects'
-import Stack from '@/components/Stack'
-import { BsFillArrowUpCircleFill } from 'react-icons/bs'
 
 export default function Home() {
   return (
-    <>
+    <div className='max-w-7xl mx-auto px-4 xl:px-0 pt-16 flex flex-col gap-64'>
       <PersonalImage />
-      <Footer />
-      {/* <Stack />
-      <AboutMe />
-      <Projects />
-      <a className='bottom-4 right-4 md:bottom-8 md:right-8 fixed' href='#home'>
-        <BsFillArrowUpCircleFill size={40} className='text-purple-heart-700' />
-      </a>  */}
-    </>
+      <IntroduceMyself />
+    </div>
   )
 }

@@ -5,6 +5,7 @@ import { useState } from 'react'
 import { FaBars } from 'react-icons/fa'
 import { IoClose } from 'react-icons/io5'
 import { Button } from './ui/button'
+import Link from 'next/link'
 
 export default function Navbar() {
   const [activate, setActivate] = useState('hidden')
@@ -14,7 +15,7 @@ export default function Navbar() {
   const scrollHandler = () => {
     if (window.scrollY >= 20) {
       updateNavbar(
-        'bg-persian-blue-950/50 backdrop-brightness-50 backdrop-blur border-b-2 shadow-md border-b-persian-blue-500'
+        'bg-ebony-1000/50 backdrop-brightness-50 backdrop-blur border-b-2 shadow-md border-b-ebony-500'
       )
     } else {
       updateNavbar('bg-trasparent')
@@ -62,10 +63,10 @@ export default function Navbar() {
             <a href='#stack'>Stack</a>
           </Button> */}
           <Button variant={'link'} className='text-white'>
-            <a href='/'>Início</a>
+            <Link href='/'>Início</Link>
           </Button>
           <Button variant={'link'} className='text-white'>
-            <a href='/about-me'>Sobre mim</a>
+            <Link href='/about-me'>Sobre mim</Link>
           </Button>
           {/* <Button variant={'link'} className='text-white'>
             <a href='#projects'>Projetos</a>

@@ -2,14 +2,14 @@
 @tailwind components;
 @tailwind utilities;
 
-body {
+.bg-img {
   position: relative;
   background: url('https://i.postimg.cc/D0c8Mgnf/Design-sem-nome-9.png')
     no-repeat center center fixed;
   background-size: cover;
 }
 
-body::before {
+.bg-img::before {
   content: '';
   background: url('https://i.postimg.cc/D0c8Mgnf/Design-sem-nome-9.png');
   position: absolute;
