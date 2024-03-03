@@ -29,7 +29,7 @@ export default function Stack() {
       <div className='flex flex-col gap-8'>
         <h2 className='text-4xl text-center font-bold'>
           <span className='text-ebony-500'>Conjunto de Habilidades</span>{' '}
-          Profisionais
+          Profissionais
         </h2>
         <ul className='flex flex-wrap gap-6 justify-center'>
           <li className='flex justify-center md:px-20 p-8 border-2 border-ebony-500 shadow-xl hover:scale-110 rounded-md'>
@@ -78,7 +78,7 @@ export default function Stack() {
       </div>
       <div className='flex flex-col gap-8'>
         <h2 className='text-4xl text-center font-bold'>
-          <span className='text-ebony-500'>Ferramentas</span> Que Uso
+          <span className='text-ebony-500'>Ferramentas</span> Que Utilizo
         </h2>
         <ul className='flex flex-wrap gap-6 justify-center'>
           <li className='flex justify-center md:px-20 p-8 border-2 border-ebony-500 shadow-xl hover:scale-110 rounded-md'>
