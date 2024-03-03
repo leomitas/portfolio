@@ -65,23 +65,43 @@ export default function Navbar() {
             activate
           )}
         >
-          <Button variant={'ghost'} className='text-white flex gap-1 max-w-max'>
+          <Button
+            variant={'ghost'}
+            onClick={changeActivate}
+            className='text-white flex gap-1 max-w-max'
+          >
             <FaHome size={17} />
             <Link href='/'>Início</Link>
           </Button>
-          <Button variant={'ghost'} className='text-white flex gap-1 max-w-max'>
+          <Button
+            variant={'ghost'}
+            onClick={changeActivate}
+            className='text-white flex gap-1 max-w-max'
+          >
             <IoPersonSharp size={17} />
             <Link href='/about-me'>Sobre mim</Link>
           </Button>
-          <Button variant={'ghost'} className='text-white flex gap-1 max-w-max'>
+          <Button
+            variant={'ghost'}
+            onClick={changeActivate}
+            className='text-white flex gap-1 max-w-max'
+          >
             <MdMonitor size={17} />
             <Link href='/projects'>Projetos</Link>
           </Button>
-          <Button variant={'ghost'} className='text-white flex gap-1 max-w-max'>
+          <Button
+            variant={'ghost'}
+            onClick={changeActivate}
+            className='text-white flex gap-1 max-w-max'
+          >
             <MdLibraryBooks size={17} />
             <Link href='/resume'>Currículo</Link>
           </Button>
-          <Button variant={'ghost'} className='text-white flex max-w-max'>
+          <Button
+            variant={'ghost'}
+            onClick={changeActivate}
+            className='text-white flex max-w-max'
+          >
             <CgGitBranch size={19} />
             <Link href='https://github.com/leomitas/portfolio' target='_blank'>
               Repositório
