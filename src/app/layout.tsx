@@ -23,7 +23,7 @@ export default function RootLayout({
   children: React.ReactNode
 }>) {
   return (
-    <html lang='en'>
+    <html lang='pt-BR'>
       <body className={clsx(raleway.className, 'max-w-full bg-ebony-950')}>
         <Navbar />
         <main className='text-white md:min-h-screen'>{children}</main>
