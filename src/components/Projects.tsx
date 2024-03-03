@@ -13,7 +13,7 @@ export default function Projects() {
               <a
                 href={project.link}
                 target='_blank'
-                className='font-bold text-xl w-max'
+                className='font-bold text-xl w-max text-ebony-500'
               >
                 {project.title}
               </a>
