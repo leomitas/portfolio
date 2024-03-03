@@ -18,6 +18,14 @@ const config = {
       },
     },
     extend: {
+      height: {
+        544: '34rem',
+        1120: '70rem',
+      },
+      width: {
+        380: '24rem',
+        840: '52.5rem',
+      },
       colors: {
         ebony: {
           '50': '#e9f5ff',

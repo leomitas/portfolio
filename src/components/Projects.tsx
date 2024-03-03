@@ -5,8 +5,7 @@ import { projects } from '@/database'
 
 export default function Projects() {
   return (
-    <section className='max-w-7xl mx-auto xl:px-0 p-4 flex flex-col gap-4'>
-      <h2 className='font-bold text-3xl'>Projetos</h2>
+    <>
       <ul>
         {projects.map((project, i) => {
           return (
@@ -38,6 +37,6 @@ export default function Projects() {
           )
         })}
       </ul>
-    </section>
+    </>
   )
 }

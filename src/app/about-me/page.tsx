@@ -5,7 +5,7 @@ import { FaHandPointRight } from 'react-icons/fa'
 
 export default function page() {
   return (
-    <div className='p-36 px-0'>
+    <div className='p-16 md:pt-36 md:pb-36 px-0'>
       <section className='max-w-7xl mx-auto px-4 xl:px-0 flex flex-col gap-16 text-xl'>
         <div className='flex justify-between flex-col md:flex-row gap-8'>
           <div className='flex flex-col gap-8'>
