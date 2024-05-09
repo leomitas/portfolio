@@ -29,7 +29,7 @@ export default function Links() {
         <GrLinkedin />
       </Link>
       <Link
-        href={'https://www.linkedin.com/in/leonardo-abreu2402/'}
+        href={'https://api.whatsapp.com/send?phone=5512992412575'}
         target='_blank'
         className={clsx(
           buttonVariants({ variant: 'outline' }),

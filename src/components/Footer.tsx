@@ -20,7 +20,7 @@ export default function Footer() {
             <GrLinkedin size={25} />
           </Link>
           <Link
-            href={'https://www.linkedin.com/in/leonardo-abreu2402/'}
+            href={'https://api.whatsapp.com/send?phone=5512992412575'}
             target='_blank'
           >
             <SiWhatsapp size={25} />
