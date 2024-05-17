@@ -5,6 +5,9 @@ const nextConfig = {
   },
   distDir: 'dist',
   target: 'server',
+  experimental: {
+    routesManifest: true,
+  },
 }
 
 export default nextConfig
