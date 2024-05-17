@@ -1,8 +1,7 @@
 {
   "builds": [
     {
-      "use": "@vercel/build",
-      "command": "npm run build"
+      "use": "npm run build"
     }
   ]
 }
