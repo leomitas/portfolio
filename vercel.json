@@ -4,6 +4,5 @@
       "cmd": "npm run build",
       "use": "@vercel/build"
     }
-  ],
-  "target": "server"
+  ]
 }
