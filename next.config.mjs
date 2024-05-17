@@ -4,9 +4,10 @@ const nextConfig = {
     remotePatterns: [{ hostname: 'i.postimg.cc' }],
   },
   distDir: 'dist',
-  target: 'serverless',
+  target: 'server',
   experimental: {
-    routesManifest: true,
+    // routesManifest: true,
+    disableFastRefresh: true,
   },
 }
 
