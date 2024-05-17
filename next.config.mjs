@@ -4,6 +4,7 @@ const nextConfig = {
     remotePatterns: [{ hostname: 'i.postimg.cc' }],
   },
   distDir: 'dist',
+  target: 'server',
 }
 
 export default nextConfig
