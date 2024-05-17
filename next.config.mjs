@@ -6,7 +6,7 @@ const nextConfig = {
   distDir: 'dist',
   target: 'server',
   experimental: {
-    // routesManifest: true,
+    routesManifest: true,
     disableFastRefresh: true,
   },
 }
