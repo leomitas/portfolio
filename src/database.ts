@@ -1,12 +1,13 @@
 export const projects = [
   {
-    link: "https://oquebelavive.com.br",
-    title: "oquebelavive.com.br",
+    link: "https://shinji-okane.vercel.app/",
+    title: "Shinji Okane: Analista de Despesas com IA",
     description:
-      "Desenvolvi um site personalizado para venda de produtos exclusivos utilizando Next.js e Tailwind.. O site apresenta uma interface intuitiva e elegante, destacando os itens à venda.. Além disso, incluí uma seção que exibe postagens do Instagram, permitindo que os visitantes conheçam mais sobre o vendedor.. Para facilitar o contato, também adicionei informações de contato, como instagram e telefone(Whatsapp).. Este projeto foi uma oportunidade incrível para aplicar minhas habilidades de desenvolvimento web e criar algo significativo para alguém.",
+      "Uma aplicação web full-stack que simplifica o controlo financeiro pessoal. Utilizando a API da Gemini do Google, a ferramenta interpreta a linguagem natural do utilizador para categorizar despesas, identificar compras parceladas e registar despesas recorrentes automaticamente. O projeto foi construído com Next.js, TypeScript e Prisma, com os dados a serem guardados numa base de dados PostgreSQL. O objetivo principal foi criar uma experiência de utilizador fluida, eliminando a necessidade de preencher formulários manuais e oferecendo uma visão clara das finanças presentes e futuras.",
     images: [
-      "https://i.postimg.cc/ZRT6Fpk2/print1.png",
-      "https://i.postimg.cc/y6RSgLSx/print2.png",
+      "https://i.postimg.cc/TYRg0LqD/Screenshot-6.png",
+      // "https://i.postimg.cc/3N9yV1CD/Screenshot-7.png",
+      // "https://i.postimg.cc/HL5rdd9m/Screenshot-8.png",
     ],
   },
 ];
