@@ -2,6 +2,7 @@ export const projects = [
   {
     link: "https://shinji-okane.vercel.app/",
     title: "Shinji Okane: Analista de Despesas com IA",
+    repo: "https://github.com/leomitas/shinji-okane",
     description:
       "Uma aplicação web full-stack que simplifica o controlo financeiro pessoal. Utilizando a API da Gemini do Google, a ferramenta interpreta a linguagem natural do utilizador para categorizar despesas, identificar compras parceladas e registar despesas recorrentes automaticamente. O projeto foi construído com Next.js, TypeScript e Prisma, com os dados a serem guardados numa base de dados PostgreSQL. O objetivo principal foi criar uma experiência de utilizador fluida, eliminando a necessidade de preencher formulários manuais e oferecendo uma visão clara das finanças presentes e futuras.",
     images: [
