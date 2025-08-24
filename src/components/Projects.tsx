@@ -11,7 +11,7 @@ export default function Projects() {
         {projects.map((project, i) => {
           return (
             <li className="flex flex-col gap-4" key={i}>
-              <div className="flex items-center gap-2">
+              <div className="flex items-center gap-4">
                 <a
                   href={project.link}
                   target="_blank"
@@ -23,7 +23,7 @@ export default function Projects() {
                 <a
                   href={project.repo}
                   target="_blank"
-                  className="flex gap-2 bg-white rounded-md py-1 px-2"
+                  className="flex gap-1 bg-white rounded-md py-1 px-1"
                 >
                   <FaGithub color="black" className="w-6 h-6" />
                   <span className="text-xl font-mono font-extrabold text-black">
