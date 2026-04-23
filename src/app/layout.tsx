@@ -26,7 +26,7 @@ export default function RootLayout({
     <html lang='pt-BR'>
       <body className={clsx(raleway.className, 'max-w-full bg-ebony-950')}>
         <Navbar />
-        <main className='text-white md:min-h-screen'>{children}</main>
+        <main className='text-white'>{children}</main>
         <Footer />
       </body>
     </html>

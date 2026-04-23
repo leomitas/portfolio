@@ -35,7 +35,7 @@ export default function IntroduceMyself() {
           </div>
         </div>
         <Image
-          src='https://i.postimg.cc/2jc04ZxT/eu.png'
+          src='https://i.postimg.cc/59gS0J0b/Whats-App-Image-2026-04-21-at-22-53-54-(1)-(1).jpg'
           alt='foto minha'
           width={300}
           height={300}

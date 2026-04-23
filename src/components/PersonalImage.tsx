@@ -41,7 +41,7 @@ export default function PersonalImage() {
           <p className='typewriter w-max text-xl h-6'>{txt}</p>
         </div>
         <Image
-          src='https://i.postimg.cc/DycmrfGB/Whats-App-Image-2026-04-21-at-22-53-54-(1).jpg'
+          src='https://i.postimg.cc/Y0wY6j7j/1.png'
           alt='imagem ilustrativa de um programador trabalhando'
           width={400}
           height={400}
