@@ -24,7 +24,6 @@ import {
   SiTypescript,
 } from 'react-icons/si'
 import { FaAws, FaWindows } from 'react-icons/fa'
-import { VscVscode } from 'react-icons/vsc'
 
 export default function Stack() {
   return (
@@ -92,9 +91,6 @@ export default function Stack() {
           </li>
           <li className='flex justify-center items-center p-4 md:p-8 border-2 border-ebony-500 shadow-xl hover:scale-110 rounded-md w-full'>
             <FaAws size={60} title='Amazon AWS' />
-          </li>
-          <li className='flex justify-center items-center p-4 md:p-8 border-2 border-ebony-500 shadow-xl hover:scale-110 rounded-md w-full'>
-            <VscVscode size={60} title='Visual Studio Code' />
           </li>
           <li className='flex justify-center items-center p-4 md:p-8 border-2 border-ebony-500 shadow-xl hover:scale-110 rounded-md w-full'>
             <SiPostman size={60} title='Postman' />
