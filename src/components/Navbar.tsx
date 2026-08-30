@@ -49,7 +49,7 @@ export default function Navbar() {
         </div>
         <nav
           className={clsx(
-            'md:flex justify-between md:p-4 flex-col md:flex-row md:gap-4 w-full transition-all',
+            'md:flex justify-between md:py-4 flex-col md:flex-row md:gap-4 w-full transition-all',
             isOpen ? 'flex w-full pb-2 items-center' : 'hidden'
           )}
         >
